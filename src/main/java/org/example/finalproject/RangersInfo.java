@@ -11,9 +11,9 @@ public class RangersInfo extends MLB{
     }
     @Override
     public String InterestingFact() {
-        return "- The Rangers won their first World Series in 2023,";
+        return "- The Rangers won the World Series in 2023, which was";
     }
     public String InterestingFact2(){
-        return "  becoming the newest World Series champions";
+        return "  their first World Series win in franchise history";
     }
 }

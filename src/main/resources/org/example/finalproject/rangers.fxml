@@ -2,12 +2,13 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="530.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.finalproject.RangersController">
+<AnchorPane prefHeight="530.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.finalproject.RangersController">
    <children>
       <Button fx:id="GoBackButton" layoutX="608.0" layoutY="490.0" mnemonicParsing="false" onAction="#returnToMain" text="Click here to go back to the main screen" />
       <Text layoutX="14.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You have selected the Texas Rangers!" wrappingWidth="637.3368148803711">
@@ -15,7 +16,6 @@
             <Font name="Bodoni MT" size="66.0" />
          </font>
       </Text>
-      <Circle fx:id="RangersColor" fill="#003278" layoutX="738.0" layoutY="114.0" radius="100.0" stroke="#c0111f" strokeType="INSIDE" strokeWidth="5.0" />
       <Label fx:id="LeagueLabel" layoutX="29.0" layoutY="205.0" prefHeight="43.0" prefWidth="540.0" text="LeagueLabel">
          <font>
             <Font name="Bodoni MT" size="25.0" />
@@ -36,5 +36,10 @@
             <Font name="Bodoni MT" size="25.0" />
          </font>
       </Label>
+      <ImageView fitHeight="242.0" fitWidth="234.0" layoutX="738.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rangers.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

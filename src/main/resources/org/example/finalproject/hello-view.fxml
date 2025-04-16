@@ -5,64 +5,64 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.finalproject.HelloController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.finalproject.HelloController">
    <children>
-      <Text layoutX="40.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on any of the buttons, and you will ">
+      <Text layoutX="115.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on any of the buttons, and you will ">
          <font>
-            <Font name="Bodoni MT" size="45.0" />
+            <Font size="41.0" />
          </font>
       </Text>
-      <Text layoutX="42.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="learn more about a certain baseball team">
+      <Text layoutX="105.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="learn more about a certain baseball team">
          <font>
-            <Font name="Bodoni MT" size="45.0" />
+            <Font size="41.0" />
          </font>
       </Text>
-      <Button fx:id="OriolesButton" layoutX="24.0" layoutY="48.0" mnemonicParsing="false" onAction="#ShowOrioles" prefHeight="86.0" prefWidth="143.0" textFill="#df4601">
+      <Button fx:id="OriolesButton" layoutX="40.0" layoutY="48.0" mnemonicParsing="false" onAction="#ShowOrioles" prefHeight="86.0" prefWidth="157.0" textFill="#df4601">
          <font>
             <Font name="Franklin Gothic Demi" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="MarlinsButton" layoutX="188.0" layoutY="48.0" mnemonicParsing="false" onAction="#ShowMarlins" prefHeight="86.0" prefWidth="143.0" textFill="#00a3e0">
+      <Button fx:id="MarlinsButton" layoutX="235.0" layoutY="48.0" mnemonicParsing="false" onAction="#ShowMarlins" prefHeight="86.0" prefWidth="157.0" textFill="#00a3e0">
          <font>
             <Font name="Franklin Gothic Demi" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="MarinersButton" layoutX="354.0" layoutY="48.0" mnemonicParsing="false" onAction="#ShowMariners" prefHeight="86.0" prefWidth="143.0" textFill="#005c5c">
+      <Button fx:id="MarinersButton" layoutX="427.0" layoutY="48.0" mnemonicParsing="false" onAction="#ShowMariners" prefHeight="86.0" prefWidth="157.0" textFill="#005c5c">
          <font>
             <Font name="Franklin Gothic Demi" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="RedsButton" layoutX="518.0" layoutY="48.0" mnemonicParsing="false" onAction="#ShowReds" prefHeight="86.0" prefWidth="143.0" textFill="#c6011f">
+      <Button fx:id="RedsButton" layoutX="625.0" layoutY="48.0" mnemonicParsing="false" onAction="#ShowReds" prefHeight="86.0" prefWidth="157.0" textFill="#c6011f">
          <font>
             <Font name="Franklin Gothic Demi" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="RangersButton" layoutX="679.0" layoutY="48.0" mnemonicParsing="false" onAction="#ShowRangers" prefHeight="86.0" prefWidth="143.0" textFill="#003278">
+      <Button fx:id="RangersButton" layoutX="813.0" layoutY="48.0" mnemonicParsing="false" onAction="#ShowRangers" prefHeight="86.0" prefWidth="157.0" textFill="#003278">
          <font>
             <Font name="Franklin Gothic Demi" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="MetsButton" layoutX="24.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowMets" prefHeight="86.0" prefWidth="143.0" textFill="#002d72">
+      <Button fx:id="MetsButton" layoutX="40.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowMets" prefHeight="86.0" prefWidth="157.0" textFill="#002d72">
          <font>
             <Font name="Franklin Gothic Demi" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="WhiteSoxButton" layoutX="188.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowWhiteSox" prefHeight="86.0" prefWidth="143.0" textFill="#27251f">
+      <Button fx:id="WhiteSoxButton" layoutX="235.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowWhiteSox" prefHeight="86.0" prefWidth="157.0" textFill="#27251f">
          <font>
             <Font name="Franklin Gothic Demi" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="RockiesButton" layoutX="354.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowRockies" prefHeight="86.0" prefWidth="143.0" textFill="#5038a4">
+      <Button fx:id="RockiesButton" layoutX="424.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowRockies" prefHeight="86.0" prefWidth="157.0" textFill="#5038a4">
          <font>
             <Font name="Franklin Gothic Demi" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="RaysButton" layoutX="518.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowRays" prefHeight="86.0" prefWidth="143.0" textFill="#8fbce6">
+      <Button fx:id="RaysButton" layoutX="625.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowRays" prefHeight="86.0" prefWidth="157.0" textFill="#8fbce6">
          <font>
             <Font name="Franklin Gothic Demi" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="PiratesButton" layoutX="679.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowPirates" prefHeight="86.0" prefWidth="154.0" textFill="#fdb827">
+      <Button fx:id="PiratesButton" layoutX="813.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowPirates" prefHeight="86.0" prefWidth="168.0" textFill="#fdb827">
          <font>
             <Font name="Franklin Gothic Demi" size="30.0" />
          </font>
